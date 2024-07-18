@@ -1,0 +1,35 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table-fixed {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  .table-fixed th, .table-fixed td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  @media (max-width: 576px) {
+    .table-fixed th, .table-fixed td {
+      font-size: 12px;
+      padding: 0.3rem;
+    }
+  
+    .table-fixed th {
+      width: 100px;
+    }
+  
+    .table-fixed td {
+      width: 100px;
+    }
+  
+    .btn {
+      padding: 0.2rem 0.5rem;
+      font-size: 12px;
+    }
+  }
+  
